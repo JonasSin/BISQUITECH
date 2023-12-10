@@ -1,3 +1,6 @@
+EL PROYECTO ESTA EN LA CARPETA:
+STORE1.2 de BISQUITECH
+
 Para instalar este proyecto es necesario tener instalado laragon y descargar phpmyadmin para despues colacarlo en "C:\laragon\etc\apps".
 La carpeta phpmyadmin..., se puede editar el nombre como: phpMyAdmin
 Para iniciar el servidor es necesario abrir laragon y en el menu en la parte de MySQL darle click a phpmyadmin y darle a iniciar todo.
