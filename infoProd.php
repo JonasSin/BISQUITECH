@@ -16,7 +16,7 @@ include './library/consulSQL.php';
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                    <h1>DETALLE DE PRODUCTO <small class="tittles-pages-logo">STORE</small></h1>
+                    <h1>DETALLE DE PRODUCTO <small class="tittles-pages-logo">BISQUITECH</small></h1>
                 </div>
                 <?php 
                     $CodigoProducto=consultasSQL::clean_string($_GET['CodigoProd']);
@@ -56,7 +56,6 @@ include './library/consulSQL.php';
                                 echo '<br>
                                 <a href="product.php" class="btn btn-lg btn-primary btn-raised btn-block"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;Regresar a la tienda</a>
                             </div>
-
 
                             <div class="col-xs-12 col-sm-6">
                                 <br><br><br>

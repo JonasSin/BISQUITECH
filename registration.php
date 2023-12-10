@@ -9,10 +9,10 @@
     <section id="form-registration">
         <div class="container">
             <div class="page-header">
-              <h1>REGISTRO <small class="tittles-pages-logo">STORE</small></h1>
+              <h1>REGISTRO <small class="tittles-pages-logo">BISQUITECH</small></h1>
             </div>
             <p class="lead text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident assumenda asperiores architecto nostrum blanditiis excepturi voluptatibus, velit ad enim. Aperiam voluptatum est, fugit quisquam libero distinctio nobis porro numquam minus.
+            En Bisquitech, nos destacamos por ofrecer productos tecnológicos de última generación. Mantenemos un enfoque constante en la innovación, brindándote acceso a lo último en el mundo de la tecnología.
             </p>
             <div class="row">
                 <div class="col-sm-5 text-center">

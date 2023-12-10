@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="./css/sweetalert.css">
 <link rel="stylesheet" href="./css/media.css">
 <link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/material.min.js"></script>

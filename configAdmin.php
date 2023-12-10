@@ -14,43 +14,43 @@
     <section id="prove-product-cat-config">
         <div class="container">
           <div class="page-header">
-            <h1>Panel de administración <small class="tittles-pages-logo">STORE</small></h1>
+            <h1>Panel de administración <small class="tittles-pages-logo">BISQUITECH</small></h1>
           </div>
           <!--====  Nav Tabs  ====-->
           <ul class="nav nav-tabs nav-justified" style="margin-bottom: 15px;">
             <li>
               <a href="configAdmin.php?view=product">
-                <i class="fa fa-cubes" aria-hidden="true"></i> &nbsp; Productos
+                <i class="fa fa-cubes" aria-hidden="true"></i> &nbsp; PRODUCTOS
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=provider">
-                <i class="fa fa-truck" aria-hidden="true"></i> &nbsp; Proveedores
+                <i class="fa fa-truck" aria-hidden="true"></i> &nbsp; PROVEEDORES
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=category">
-                <i class="fa fa-shopping-basket" aria-hidden="true"></i> &nbsp; Categorías
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i> &nbsp; CATEGORÍAS
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=admin">
-                <i class="fa fa-users" aria-hidden="true"></i> &nbsp; Administradores
+                <i class="fa fa-users" aria-hidden="true"></i> &nbsp; ADMINISTRADORES
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=order">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; Pedidos
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; PEDIDOS
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=bank">
-                <i class="fa fa-university" aria-hidden="true"></i> &nbsp; Cuenta bancaria
+                <i class="fa fa-university" aria-hidden="true"></i> &nbsp; CUENTA BANCARIA
               </a>
             </li>
             <li>
               <a href="configAdmin.php?view=account">
-                <i class="fa fa-address-card" aria-hidden="true"></i> &nbsp; Mi cuenta
+                <i class="fa fa-address-card" aria-hidden="true"></i> &nbsp; MI CUENTA
               </a>
             </li>
           </ul>

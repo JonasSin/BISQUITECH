@@ -1,5 +1,6 @@
 <p class="lead">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum voluptates, corporis nisi dolores cumque obcaecati perferendis, quisquam, ipsa commodi labore molestias dolor itaque nam cupiditate totam, ea dicta? Sit, asperiores?
+En BISQUITECH Analizamos datos de uso para mejorar la experiencia del usuario y personalizar nuestras ofertas de productos.
+    Utilizamos medidas de seguridad para proteger tu información y prevenir actividades fraudulentas.
 </p>
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>

@@ -5,18 +5,28 @@
 <nav id="navbar-auto-hidden">
         <div class="row hidden-xs">
             <div class="col-xs-4">
-                <p class="text-navbar tittles-pages-logo">STORE</p>
+            <div class="imgbis">
+                <img src="./assets/img/logof.png">
+                <style>
+                  .imgbis img{
+                    width: 45%;
+                    margin-left: 10%;
+                    bottom: 5px; 
+                  }
+                </style>
+            </div>
+                <p class="text-navbar tittles-pages-logo"></p>
             </div>
             <div class="col-xs-8">
               <div class="contenedor-tabla pull-right">
                 <div class="contenedor-tr">
-                  <a href="index.php" class="table-cell-td">Inicio</a>
-                  <a href="product.php" class="table-cell-td">Productos</a>
+                  <a href="index.php" class="table-cell-td">INICIO</a>
+                  <a href="product.php" class="table-cell-td">PRODUCTOS</a>
                   <?php
                       if(!$_SESSION['nombreAdmin']==""){
                           echo ' 
-                              <a href="carrito.php" class="table-cell-td">Carrito</a>
-                              <a href="configAdmin.php" class="table-cell-td">Administración</a>
+                              <a href="carrito.php" class="table-cell-td">CARRITO</a>
+                              <a href="configAdmin.php" class="table-cell-td">ADMINISTRACIÓN</a>
                               <a href="#!" class="table-cell-td exit-system">
                                   <i class="fa fa-user"></i>&nbsp;&nbsp;'.$_SESSION['nombreAdmin'].'
                               </a>
@@ -25,7 +35,7 @@
                           echo ' 
 
                               <a href="pedido.php" class="table-cell-td">Pedido</a>
-                              <a href="carrito.php" class="table-cell-td">Carrito</a>
+                              <a href="carrito.php" class="table-cell-td">CARRITO</a>
                               <a href="#!" class="table-cell-td exit-system">
                               <i class="fa fa-user"></i>&nbsp;&nbsp;'.$_SESSION['nombreUser'].'
                               </a>
@@ -36,15 +46,17 @@
                       }else{
                           echo ' 
 
-                          <a href="registration.php" class="table-cell-td">Registro</a>
+                          <a href="registration.php" class="table-cell-td">REGISTRO</a>
                               <a href="#" class="table-cell-td" data-toggle="modal" data-target=".modal-login">
                                   <i class="fa fa-user"></i>&nbsp;&nbsp;Login
                               </a>
+                              
                            ';
                       }
                   ?>
                 </div>
               </div>
+              
             </div>
         </div>
 
@@ -75,7 +87,7 @@
             </div>
         </div>
     </nav>
-   
+                
     <div class="modal fade modal-login" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
           <div class="modal-content" id="modal-form-login" style="padding: 15px;">
@@ -125,18 +137,18 @@
     
     <div id="mobile-menu-list" class="hidden-sm hidden-md hidden-lg">
         <br>
-        <h3 class="text-center tittles-pages-logo">STORE</h3>
+        <h3 class="text-center tittles-pages-logo">BISQUITECH</h3>
         <button class="btn btn-default button-mobile-menu" id="button-close-mobile-menu">
         <i class="fa fa-times"></i>
         </button>
         <br><br>
         <ul class="list-unstyled text-center">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="product.php">Productos</a></li>
-            <li><a href="carrito.php">Carrito</a></li>
+            <li><a href="index.php">INICIO</a></li>
+            <li><a href="product.php">PRODUCTOS</a></li>
+            <li><a href="carrito.php">CARRITO</a></li>
             <?php 
                 if(!$_SESSION['nombreAdmin']==""){
-                    echo '<li><a href="configAdmin.php">Administración</a></li>';
+                    echo '<li><a href="configAdmin.php">ADMINISTRACIÓN</a></li>';
                 }elseif(!$_SESSION['nombreUser']==""){
                     echo '
                     <li><a href="pedido.php">Pedido</a></li>
@@ -159,7 +171,7 @@
           <div class="modal-body" id="UserConData">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">CANCELAR</button>
             <button type="submit" class="btn btn-info">Guardar cambios</button>
           </div>
         </form>
